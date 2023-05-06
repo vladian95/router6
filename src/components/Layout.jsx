@@ -16,8 +16,11 @@ const Layout = () => {
           About
         </NavLink>
       </header>
-      <Outlet />
-      <footer>2023</footer>
+      <main className="container">
+        <Outlet />
+      </main>
+
+      <footer>FOOTERrr</footer>
     </>
   );
 };
