@@ -20,7 +20,7 @@ const Layout = () => {
         <Outlet />
       </main>
 
-      <footer>FOOTERrr</footer>
+      <footer>FOOTER</footer>
     </>
   );
 };
