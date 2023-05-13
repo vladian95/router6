@@ -9,12 +9,13 @@ import Notfoundpage from './pages/Notfoundpage';
 import Layout from './components/Layout';
 import Loginpage from './pages/Loginpage';
 import RequireAuth from './hoc/RequireAuth';
+import { AuthProvider } from './hoc/AuthProvider';
 
 import './App.css';
 
 function App() {
   return (
-    <>
+    <AuthProvider>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index path="/" element={<Homepage />} />
@@ -35,7 +36,7 @@ function App() {
           <Route path="*" element={<Notfoundpage />} />
         </Route>
       </Routes>
-    </>
+    </AuthProvider>
   );
 }
 
