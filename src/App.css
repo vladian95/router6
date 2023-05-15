@@ -36,3 +36,9 @@ footer {
   color: blue;
   text-decoration: underline;
 }
+
+.links-blog {
+  color: black;
+  list-style: none;
+  text-align: left;
+}
