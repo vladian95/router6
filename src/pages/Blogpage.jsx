@@ -25,7 +25,7 @@ const Blogpage = () => {
         latest={latest}
         setSearchParams={setSearchParams}
       />
-      <Link to="/posts/new">Add new post</Link>
+      <Link to="/posts/new">Add new postt</Link>
       {posts
         .filter(
           (post) => post.title.includes(postQuery) && post.id >= startsFrom
